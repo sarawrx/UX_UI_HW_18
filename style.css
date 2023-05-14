@@ -1,0 +1,152 @@
+body {
+    font-family: calibri;
+  }
+  
+  /*nav bar*/
+  .navigation {
+    display: flex;
+    background-color: #fff;
+    height: 100px;
+    margin: auto;
+    padding: 0;
+  }
+  img {
+    padding-top: 40px;
+    padding-left: 25px;
+    display: inline-block;
+  }
+  #linkedin {
+    width: 46px;
+    height: 46px;
+    padding-top: 32px;
+  }
+  #insta {
+    width: 33px;
+    height: 33px;
+  }
+  #email {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .buttons ul {
+    margin: auto;
+    text-align: right;
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+    font-size: 18px;
+  }
+  
+  /*download button*/
+  button {
+    margin: auto;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+  }
+  
+  /*link button decor*/
+  a:link, a:visited {
+    color: black;
+    border: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: beige;
+    color: black;
+  }
+  
+  /*main body*/
+  .hero {
+    text-align: center;
+    padding-top: 100px;
+    background: rbg(219, 213, 213, 0.6);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 450px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+
+  #line {
+    display: inline-block;
+    background: #2F6399;
+    height: 5px;
+    width: 600px;
+    margin: 0px 40px 40px 400px;
+    padding-top: 0px;
+  }
+  #linetwo {
+    display: inline-block;
+    background: #CC6600;
+    height: 3px;
+    width: 400px;
+  }
+  h2 {
+    text-decoration-line: underline;
+    margin-left: 200px;
+    padding-top: 10px;
+  }
+  
+  h3 {
+   padding-top: 20px;
+  }
+  p {
+    margin: 0 auto;
+  }
+  
+  .wrapper-container {
+    display: flex;
+    flex-wrap: wrap; /*allow wrapping items*/
+    margin-bottom: 10px;
+  }
+  
+  .side, .main {
+    flex-grow: 1;
+    flex-basis: 50%; /*50% for two in a row, 33% three in a row etc*/
+  }
+  
+  .sidebar {
+    max-width: 300px;
+    background: rgb(222, 100, 110, 0.7);
+    margin-right: 19px;
+    padding:10px;
+  }
+  
+  .project-item {
+    min-height: 200px;
+    padding: 10px;
+  }
+  .project-item.one {
+    background: #F0E9CB;
+    margin-bottom: 5px;
+  }
+  .project-item.two {
+    background: #CDDEE9;
+    margin-bottom: 5px;
+  }
+  .project-item.three {
+    background: #434746;
+  }
+  /*end of main body*/
+  
+  footer {
+    background: #416159;
+    color:#fff;
+    padding: 10px;
+  }
+
+  /*responsive screen size change in backgroun color*/
+@media screen and (max-width: 1046px) {
+  body {
+    background-color: black;
+  }
+}
+  
